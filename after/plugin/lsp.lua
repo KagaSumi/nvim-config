@@ -4,7 +4,6 @@ lsp.preset('recommended')
 lsp.ensure_installed({
   'pylsp',
   'gopls',
-  'golangci_lint_ls',
   'eslint',
 })
 
