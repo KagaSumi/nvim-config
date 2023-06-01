@@ -3,6 +3,8 @@ local lsp = require('lsp-zero')
 lsp.preset('recommended')
 lsp.ensure_installed({
   'pylsp',
+  'golangci_lint_ls',
+  'eslint',
 })
 
 lsp.nvim_workspace()
